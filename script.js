@@ -1,3 +1,9 @@
-let titre = document.getElementById('titre');
+let C = 30;
 
-titre.textContent = "Mon nouveau titre";
+let F = C * 9/5 + 32;
+
+let Celsius = document.getElementById("Celsius");
+Celsius.textContent = C;
+
+let Farenheit = document.getElementById("Farenheit");
+Farenheit.textContent = F;
